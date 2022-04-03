@@ -9,11 +9,11 @@
   - Tamamen proje bazlı bir depodur.
   - Yeni başlayan ve orta düzey geliştiriciler için basic projeler içerecektir.
   - HTML, CSS, DOM (Belge Nesne Modeli) ve JavaScript ile ilgili 50 mini proje içerir.
-  - Projelerin kaynak kodlarına ve <a href="https://www.youtube.com/channel/UC86HNI5ZoebM7zqAVQt6ouw"> YouTube </a> yapım video bağlantılarına aşağıdaki <b>Projeler</b> kısmında rahat bir şekilde ulaşabilirsiniz.
+  - Projelerin kaynak kodlarına ve <a href="https://www.youtube.com/channel/UC86HNI5ZoebM7zqAVQt6ouw"> YouTube </a> yapım video bağlantılarına aşağıdaki <b>Projeler</b> tablosundan rahat bir şekilde ulaşabilirsiniz.
 - <b> Düzen: </b>
-  - Projeler klasör klasör toplanmış olup <b> Projeler </b> kısmında ilgili proje üzerine gelip kaynak kodlara ve yapım videosu için YouTube bağlantalarına tıklayarak ulaşabilirsiniz.
+  - Projeler klasör klasör toplanmış olup <b> Projeler </b> kısmında ilgili proje üzerine gelip kaynak kodlarına ve yapım videosu için YouTube bağlantılarına tıklayarak ulaşabilirsiniz.
 - <b> <a href="https://www.youtube.com/channel/UC86HNI5ZoebM7zqAVQt6ouw"> YouTube </a> Hakkında: </b>
-  - Projelerin yapım aşamaları bazıları canlı yayında birlikte kodlayarak ve bazıları ise normal video yükleme işlemi şeklinde paylaşılacaktır.
+  - Projelerin yapım aşamaları bazıları canlı yayında birlikte kodlayarak bazıları ise normal video yükleme işlemi şeklinde paylaşılacaktır.
   - Vize ve final haftalarından kaynaklı tüm projeler canlı yayın olamayacaktır. Sınav dönemlerine denk gelen projeler normal video şeklinde yayınlanacaktır.
 - ###### Kafanıza takılan bir şey olursa bana istediğiniz mecradan ulaşabilirsiniz.
 
