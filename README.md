@@ -1,6 +1,6 @@
 <div align= "center">
 <img  src="https://skillicons.dev/icons?i=html" /> <img  src="https://skillicons.dev/icons?i=css" /> <img  src="https://skillicons.dev/icons?i=js" /> 
-<h1>50 Günde 50 Proje</h1>
+<h1>50 Gün 50 Proje</h1>
 </div>
 
 <hr/>
