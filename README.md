@@ -12,7 +12,7 @@
   - Projelerin kaynak kodlarına ve <a href="https://www.youtube.com/channel/UC86HNI5ZoebM7zqAVQt6ouw"> YouTube </a> yapım video bağlantılarına aşağıdaki <b>Projeler</b> kısmında rahat bir şekilde ulaşabilirsiniz.
 - <b> Düzen: </b>
   - Projeler klasör klasör toplanmış olup <b> Projeler </b> kısmında ilgili proje üzerine gelip kaynak kodlara ve yapım videosu için YouTube bağlantalarına tıklayarak ulaşabilirsiniz.
-- <a href="https://www.youtube.com/channel/UC86HNI5ZoebM7zqAVQt6ouw"> YouTube </a> Hakkında:
+- <b> <a href="https://www.youtube.com/channel/UC86HNI5ZoebM7zqAVQt6ouw"> YouTube </a> Hakkında: </b>
   - Projelerin yapım aşamaları bazıları canlı yayında birlikte kodlayarak ve bazıları ise normal video yükleme işlemi şeklinde paylaşılacaktır.
   - Vize ve final haftalarından kaynaklı tüm projeler canlı yayın olamayacaktır. Sınav dönemlerine denk gelen projeler normal video şeklinde yayınlanacaktır.
 - ###### Kafanıza takılan bir şey olursa bana istediğiniz mecradan ulaşabilirsiniz.
