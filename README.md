@@ -12,6 +12,8 @@
   - Projelerin kaynak kodlarına ve <a href="https://www.youtube.com/channel/UC86HNI5ZoebM7zqAVQt6ouw"> YouTube </a> yapım video bağlantılarına aşağıdaki <b>Projeler</b> kısmında rahat bir şekilde ulaşabilirsiniz.
 - <b> Düzen: </b>
   - Projeler klasör klasör toplanmış olup <b> Projeler </b> kısmında ilgili proje üzerine gelip kaynak kodlara ve yapım videosu için YouTube bağlantalarına tıklayarak ulaşabilirsiniz.
+- <a href="https://www.youtube.com/channel/UC86HNI5ZoebM7zqAVQt6ouw"> YouTube Hakkında</a>:
+  - Projelerin yapım aşamaları canlı yayında birlikte kodlayarak ve normal yükleme işlemi şeklinde paylaşılacaktır.
 - ###### Kafanıza takılan bir şey olursa bana istediğiniz mecradan ulaşabilirsiniz.
 
 <hr/>
