@@ -21,59 +21,59 @@
 
 <h2 align="center"> Projeler </h2>
 
-| Sıra | Kaynak Kod                 | YouTube Bağlantı           | Durum           |
-| ---- | -------------------------- | -------------------------- | --------------- |
-| `00` | **[Genişleyen Kartlar]()** | **[Genişleyen Kartlar]()** | `Hazırlanıyor`  |
-| `01` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `02` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `03` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `04` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `05` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `06` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `07` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `08` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `09` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `10` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `11` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `12` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `13` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `14` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `15` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `16` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `17` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `18` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `19` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `20` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `21` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `22` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `23` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `24` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `25` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `26` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `27` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `28` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `29` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `30` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `31` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `32` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `33` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `34` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `35` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `36` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `36` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `37` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `38` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `39` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `40` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `41` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `42` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `43` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `44` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `45` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `46` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `47` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `48` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
-| `49` | **[]()**                   | **[]()**                   | `Gelecek Proje` |
+| Sıra | Kaynak Kod                                                                                                       | YouTube Bağlantı                                                                   | Durum           |
+| ---- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------- |
+| `00` | **[Genişleyen Kartlar](https://github.com/ozantekin/50Days50Projects/tree/main/Projects/01_Genisleyen_Kartlar)** | **[Expanding Cards Nasıl Yapılır (HTML, CSS & JS)](https://youtu.be/32sSSksKbCE)** | `Tamamlandı`    |
+| `01` | **[]()**                                                                                                         | **[]()**                                                                           | `Hazırlanıyor`  |
+| `02` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `03` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `04` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `05` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `06` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `07` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `08` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `09` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `10` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `11` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `12` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `13` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `14` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `15` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `16` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `17` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `18` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `19` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `20` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `21` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `22` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `23` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `24` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `25` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `26` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `27` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `28` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `29` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `30` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `31` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `32` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `33` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `34` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `35` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `36` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `36` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `37` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `38` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `39` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `40` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `41` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `42` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `43` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `44` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `45` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `46` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `47` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `48` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
+| `49` | **[]()**                                                                                                         | **[]()**                                                                           | `Gelecek Proje` |
 
 <hr/>
 
