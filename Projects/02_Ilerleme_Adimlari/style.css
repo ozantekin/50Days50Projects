@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root{
+    --line-border-fill: #ff4d6d;
+    --line-border-empty: #dee2e6;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.container{
+    text-align: center;
+}
+
+.progress-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    width: 350px;
+    max-width: 100%;
+}
+
+.progress-container::before{
+    content: '';
+    background-color: var(--line-border-empty);
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.progress{
+    background-color: var(--line-border-fill);
+    height: 4px;
+    width: 0%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.circle{
+    background-color: #fff;
+    border-radius: 50%;
+    height: 30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--line-border-empty);
+    transition: 0.4s ease;
+}
+
+.circle.active{
+    border-color: var(--line-border-fill);
+}
+
+.btn{
+    background-color: var(--line-border-fill);
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 24px;
+    font-size: 14px;
+    margin: 5px;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.btn:disabled{
+    background-color: var(--line-border-empty);
+}
