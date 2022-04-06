@@ -96,7 +96,7 @@ body {
 
 nav {
   position: fixed;
-  bottom: 90px;
+  bottom: 25%;
   left: 0;
   z-index: 100;
 }
