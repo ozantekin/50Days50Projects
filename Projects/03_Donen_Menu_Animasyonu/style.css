@@ -1,140 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Inter", sans-serif;
-    background-color: #333;
-    color: #222;
-    margin: 0;
-    overflow-x: hidden;
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #333;
+  color: #222;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-.container{
-    background-color: #fafafa;
-    transform-origin: top left;
-    transition:transform 0.5s linear;
-    width: 100vw;
-    min-height: 100vh;
-    padding: 50px;
+.container {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
 }
 
-.container.show-nav{
-    transform: rotate(-35deg);
+.container.show-nav {
+  transform: rotate(-20deg);
 }
 
-.circle-container{
-    position: fixed;
-    top: -100px;
-    left: -100px;
-    /* top: 100px | left:100px*/
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  /* top: 100px | left:100px*/
 }
 
-.circle{
-    background-color: #ff7979;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    position: relative;
-    transition: transform 0.5s linear;
+.circle {
+  background-color: #ff7979;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
 }
 
 .circle button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 100px;
-    background-color: transparent;
-    border: none;
-    font-size: 26px;
-    color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background-color: transparent;
+  border: none;
+  font-size: 26px;
+  color: #fff;
 }
 
-.circle button:focus{
-    outline: none;
+.circle button:focus {
+  outline: none;
 }
 
-.circle button#open{
-    left: 60%;
+.circle button#open {
+  left: 60%;
 }
 
-.circle button#close{
-    top: 60%;
-    transform: rotate(90deg);
-    transform-origin: top left;
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
 }
 
-.container.show-nav .circle{
-    /*JS sonrası*/
-    transform: rotate(-55deg);
+.container.show-nav .circle {
+  /*JS sonrası*/
+  transform: rotate(-70deg);
 }
 
-.content{
-    max-width: 500px;
-    margin: 50px auto;
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
 }
 
-.content h1{
-    margin: 0;
+.content h1 {
+  margin: 0;
 }
 
-.content small{
-    color: #555;
-    font-style: italic;
+.content small {
+  color: #555;
+  font-style: italic;
 }
 
-.content p{
-    color: #333;
-    line-height: 1.5;
+.content p {
+  color: #333;
+  line-height: 1.5;
 }
 
-.content img{
-    max-width: 100%;
+.content img {
+  max-width: 100%;
 }
 
-nav{
-    position: fixed;
-    bottom: 90px;
-    left: 0;
-    z-index: 100;
+nav {
+  position: fixed;
+  bottom: 90px;
+  left: 0;
+  z-index: 100;
 }
 
 nav ul {
-    list-style: none;
-    padding-left: 30px;
+  list-style: none;
+  padding-left: 30px;
 }
 
-nav ul li{
-    text-transform: uppercase;
-    color: #fff;
-    margin: 40px 0;
-    transform: translateX(-100%);
-    /*transform: translateX(-100%);*/
-    transition: transfomr 0.4s ease-in;
+nav ul li {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 40px 0;
+  transform: translateX(-100%);
+  /*transform: translateX(-100%);*/
+  transition: transfomr 0.4s ease-in;
 }
 
 nav ul li + li {
-    margin-left: 15px;
-    transform: translateX(-150%);
-    /*transform: translateX(-150%);*/
+  margin-left: 15px;
+  transform: translateX(-150%);
+  /*transform: translateX(-150%);*/
 }
 
-nav ul li + li + li{
-    margin-left: 30px;
-    transform: translateX(-200%);
-    /*transform: translateX(-200%);*/
+nav ul li + li + li {
+  margin-left: 30px;
+  transform: translateX(-200%);
+  /*transform: translateX(-200%);*/
 }
 
-nav ul li i{
-    font-size: 20px;
-    margin-right: 10px;
+nav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
 }
 
-.container.container.show-nav + nav li{
-    transform:  translateX(0);
-    /*transform:  translateX(0);*/
-    transition-delay: 0.3s;
+.container.container.show-nav + nav li {
+  transform: translateX(0);
+  /*transform:  translateX(0);*/
+  transition-delay: 0.3s;
 }
-
