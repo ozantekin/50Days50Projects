@@ -22,20 +22,20 @@ body{
 }
 
 .container.show-nav{
-    transform: rotate(-20deg);
+    transform: rotate(-35deg);
 }
 
 .circle-container{
     position: fixed;
-    top: -90px;
-    left: -90px;
-    /* top: 90px | left:90px*/
+    top: -100px;
+    left: -100px;
+    /* top: 100px | left:100px*/
 }
 
 .circle{
     background-color: #ff7979;
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     position: relative;
     transition: transform 0.5s linear;
@@ -45,7 +45,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 90px;
+    height: 100px;
     background-color: transparent;
     border: none;
     font-size: 26px;
@@ -66,6 +66,75 @@ body{
     transform-origin: top left;
 }
 
+.container.show-nav .circle{
+    /*JS sonrası*/
+    transform: rotate(-55deg);
+}
+
+.content{
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.content h1{
+    margin: 0;
+}
+
+.content small{
+    color: #555;
+    font-style: italic;
+}
+
+.content p{
+    color: #333;
+    line-height: 1.5;
+}
+
 .content img{
     max-width: 100%;
 }
+
+nav{
+    position: fixed;
+    bottom: 90px;
+    left: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+nav ul li{
+    text-transform: uppercase;
+    color: #fff;
+    margin: 40px 0;
+    transform: translateX(-100%);
+    /*transform: translateX(-100%);*/
+    transition: transfomr 0.4s ease-in;
+}
+
+nav ul li + li {
+    margin-left: 15px;
+    transform: translateX(-150%);
+    /*transform: translateX(-150%);*/
+}
+
+nav ul li + li + li{
+    margin-left: 30px;
+    transform: translateX(-200%);
+    /*transform: translateX(-200%);*/
+}
+
+nav ul li i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.container.container.show-nav + nav li{
+    transform:  translateX(0);
+    /*transform:  translateX(0);*/
+    transition-delay: 0.3s;
+}
+
