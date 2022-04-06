@@ -112,7 +112,7 @@ nav ul li {
   margin: 40px 0;
   transform: translateX(-100%);
   /*transform: translateX(-100%);*/
-  transition: transfomr 0.4s ease-in;
+  transition: transform 0.4s ease-in;
 }
 
 nav ul li + li {
@@ -132,7 +132,7 @@ nav ul li i {
   margin-right: 10px;
 }
 
-.container.container.show-nav + nav li {
+container.show-nav + nav li {
   transform: translateX(0);
   /*transform:  translateX(0);*/
   transition-delay: 0.3s;
