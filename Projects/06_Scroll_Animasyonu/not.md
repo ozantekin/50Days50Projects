@@ -1,0 +1,2 @@
+- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect"> Element.getBoundingClientRect() </a>
+- Bir öğenin boyutu ve görünüm alanına göre konumu hakkında bilgi sağlayan bir DOMRect nesnesi döndürür.
