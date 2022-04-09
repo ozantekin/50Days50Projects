@@ -7,6 +7,7 @@
   --right-btn-hover-color: rgba(177, 59, 245, 1);
   --hover-width: 75%;
   --other-width: 25%;
+  --hover-height: 75%;
   --speed: 1000ms;
 }
 
@@ -52,7 +53,7 @@ body {
 .split.right {
   right: 0;
   background: no-repeat center/cover
-    url('https://pbs.twimg.com/media/DWoitEUX0AEnrdn.jpg:large');
+    url('https://i0.wp.com/hocjavascript.net/wp-content/uploads/2021/03/Nen-lam-backend-hay-frontend-khi-moi-ra-truong.jpg?fit=750%2C450&ssl=1');
 }
 
 .split.right::before {
