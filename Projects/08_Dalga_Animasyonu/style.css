@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+  --red-color: #d22731;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+.container h1 {
+  color: var(--red-color);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #7bbcd8;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+.form-control input {
+  border: 0;
+  border-bottom: 2px solid #e8e8e8;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  color: #333;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: none;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background-color: var(--red-color);
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.text {
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.text a:hover {
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
