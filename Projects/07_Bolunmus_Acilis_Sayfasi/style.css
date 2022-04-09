@@ -84,7 +84,7 @@ h1 {
   color: #fff;
   border: #fff solid 3px;
   background-color: transparent;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   width: 15rem;
   padding: 1.5rem;
@@ -139,5 +139,6 @@ h1 {
   .btn {
     padding: 1.2rem;
     width: 12rem;
+    font-size: 1.2rem;
   }
 }
