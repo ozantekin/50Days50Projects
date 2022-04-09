@@ -8,4 +8,4 @@ labels.forEach((label) => {
         `<span style="transition-delay:${index * 50}ms">${letter}</span>`
     )
     .join('')
-}).fomr
+})
