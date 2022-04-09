@@ -55,6 +55,8 @@ body {
 .form-control input:focus,
 .form-control input:valid {
   outline: none;
+  border-bottom-color: #999;
+  font-size: 16px;
 }
 
 .btn {
@@ -85,4 +87,23 @@ body {
 
 .text a:hover {
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.7, -0.6, 0.3, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: #999;
+  transform: translateY(-30px);
 }
