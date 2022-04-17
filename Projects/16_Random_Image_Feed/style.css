@@ -14,7 +14,7 @@ body {
 }
 
 .title {
-  margin: 10 0 0;
+  margin: 10px 0 30px;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
