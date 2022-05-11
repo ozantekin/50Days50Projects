@@ -1,4 +1,3 @@
-const header = document.getElementById('header')
 const content = document.getElementById('content')
 const speedEl = document.getElementById('speed')
 const text = 'I am a computer engineering student and front-end developer'
@@ -12,7 +11,7 @@ function writeText() {
   idx++
 
   if (idx > text.length) {
-    content.innerText = text
+    idx = 1
   }
 
   setTimeout(writeText, speed)
