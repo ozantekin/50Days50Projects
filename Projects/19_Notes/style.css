@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Sniglet', cursive;
-  background: url(./images/cork.png);
+  background: url(./image/cork.png);
   display: flex;
   flex-wrap: wrap;
   padding-top: 3rem;

@@ -34,9 +34,6 @@ function addNewNote(text = '') {
     textArea.classList.toggle('hidden')
   })
 
-  textArea.value = text
-  main.innerHTML = marked(text)
-
   textArea.addEventListener('input', (e) => {
     const { value } = e.target
     main.innerHTML = marked(value)
