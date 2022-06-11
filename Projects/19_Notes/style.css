@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Sniglet', cursive;
+  background: url(./image/cork.png);
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+
+.add {
+  position: fixed;
+  color: #fff;
+  top: 1rem;
+  right: 1rem;
+  background: #ff5a5f;
+  padding: 0.4rem 1.2rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.6) 6px 6px 9px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.add:active {
+  transform: scale(0.98);
+}
+
+.note {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 7px;
+  margin: 30px 20px;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.note .tools {
+  background: #ff5a5f;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.note img {
+  width: 35px;
+  position: absolute;
+  padding: 5px;
+}
+
+.note .tools button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.note textarea {
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  height: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
