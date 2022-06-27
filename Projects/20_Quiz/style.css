@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(img/quiz.png) center;
+  font-family: 'Sniglet', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.quiz-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+  margin-bottom: 20rem;
+}
+
+.quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  padding: 0 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+.submit {
+  border: none;
+  background-color: #fff;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 0 0 5px 10px;
+  padding: 1rem;
+  background-color: #a8c82f;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+#submit:focus:after {
+  content: ', Son Kararım👍';
+}
+
+#submit:focus {
+  background-color: #f87da9;
+  outline: none;
+}
+
+[type='radio']:checked,
+[type='radio']:not(:checked) {
+  display: none;
+}
+[type='radio']:checked + label,
+[type='radio']:not(:checked) + label {
+  position: relative;
+  padding-left: 1.8rem;
+  cursor: pointer;
+}
+[type='radio']:checked + label:before,
+[type='radio']:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+[type='radio']:checked + label:after,
+[type='radio']:not(:checked) + label:after {
+  content: '';
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #f87da9;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type='radio']:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type='radio']:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}

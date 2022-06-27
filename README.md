@@ -17,8 +17,6 @@
   - Vize ve final haftalarından kaynaklı tüm projeler canlı yayın olamayacaktır. Sınav dönemlerine denk gelen projeler normal video şeklinde yayınlanacaktır.
 - ###### Kafanıza takılan bir şey olursa bana istediğiniz mecradan ulaşabilirsiniz.
 
-- ###### Brad Traversy ve Florin Pop eğitmenlerine ait 50 Projects In 50 Days - HTML, CSS & JavaScript kursunun kendi çalışma filtremden geçirilmiş halidir.
-
 <hr/>
 
 <h2 align="center"> Projeler </h2>
@@ -76,6 +74,10 @@
 | `47` | **[]()**                                                                                                                            | **[]()**                                                                                                                              | `Gelecek Proje` |
 | `48` | **[]()**                                                                                                                            | **[]()**                                                                                                                              | `Gelecek Proje` |
 | `49` | **[]()**                                                                                                                            | **[]()**                                                                                                                              | `Gelecek Proje` |
+
+<hr/>
+
+- ###### Brad Traversy ve Florin Pop eğitmenlerine ait 50 Projects In 50 Days - HTML, CSS & JavaScript kursunun kendi çalışma filtremden geçirilmiş halidir.
 
 <hr/>
 
