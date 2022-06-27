@@ -64,7 +64,7 @@ loadQuiz()
 function loadQuiz() {
   const currentQuizData = quizData[currentQuiz]
 
-  deselectAnswers()
+  deselectedAnswers()
 
   questionEl.innerText = currentQuizData.question
   a_text.innerText = currentQuizData.a
@@ -74,7 +74,7 @@ function loadQuiz() {
   e_text.innerText = currentQuizData.e
 }
 
-function deselectAnswers() {
+function deselectedAnswers() {
   answerEls.forEach((answerEl) => (answerEl.checked = false))
 }
 
@@ -92,23 +92,22 @@ function getSelected() {
 submitBtn.addEventListener('click', () => {
   const answer = getSelected()
 
-  // console.log(answer)
+  //console.log(answer)
 
   if (answer) {
     if (answer === quizData[currentQuiz].correct) {
       score++
     }
-
     currentQuiz++
 
     if (currentQuiz < quizData.length) {
       loadQuiz()
     } else {
       quiz.innerHTML = `
-        <h2>Test tamamlandı, ${score * 20} puan aldınız 🥳</h2>
+      <h2> Test tamamlandı, ${score * 20} puan aldınız🥳 </h2>
+      <button class="submit" onClick="location.reload()"> Tekrar Dene 🌀  </button>
 
-        <button class="submit" onClick="location.reload()"> Tekrar Dene 🌀 </Button>
-      `
+    `
     }
   }
 })
