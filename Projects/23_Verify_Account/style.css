@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-* {
-  box-sizing: border-box;
-}
-
 :root {
   --font-color: #e96b46;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   align-items: center;
-  text-align: center;
   height: 100vh;
   margin: 0;
+  text-align: center;
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
@@ -25,8 +23,8 @@ body {
   background-color: #fff;
   padding: 1rem 2rem;
   margin: 1rem;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 7.4px 7.4px 8.2px;
+  border: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 8px 8px 9px;
 }
 
 h2 {
@@ -56,12 +54,12 @@ h2 {
   font-family: inherit;
   width: 50px;
   height: 70px;
-  font-size: 3rem;
   margin: 1%;
-  border-radius: 5px;
-  text-align: center;
+  font-size: 3rem;
   padding: 0.5rem;
+  text-align: center;
   border: 1px solid #eee;
+  border-radius: 5px;
 }
 
 .code::-webkit-outer-spin-button,
@@ -72,12 +70,12 @@ h2 {
 
 .code:focus {
   outline: none;
-  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.25);
 }
 
 .code:valid {
   border-color: var(--font-color);
-  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.25);
 }
 
 small {
@@ -87,7 +85,6 @@ small {
 small a {
   font-weight: bold;
   color: var(--font-color);
-  text-decoration: underline;
 }
 
 .back {
@@ -96,8 +93,6 @@ small a {
 
 .back a {
   text-decoration: none;
+  font-size: 1.5rem;
   color: var(--font-color);
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 20px 0 10px;
 }

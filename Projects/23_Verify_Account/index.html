@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Font Awesome-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -11,18 +12,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!--Custom CSS-->
     <link rel="stylesheet" href="style.css" />
+    <!--App JavaScript-->
+    <script src="app.js" defer></script>
     <title>Verify Account</title>
   </head>
   <body>
     <div class="container">
-      <img
-        src="image/mailbox.png"
-        style="width: 200px; height: 180px"
-        alt="Mailbox"
-      />
+      <img src="image/mailbox.png" style="width: 200px" alt="Mailbox" />
       <h2>Check your email</h2>
-      <p>We sent a verification link to <span> hi@ozantekin.dev</span></p>
+      <p>We sent a verification link to <span>hi@ozantekin.dev</span></p>
       <div class="code-container">
         <input
           type="number"
@@ -73,12 +73,12 @@
           required
         />
       </div>
-      <small> Didn't receive the email? <a href="#">Click to resend</a></small>
+      <small>Didn't receive the email? <a href="#">Click to resend</a></small>
       <div class="back">
-        <a href="#"><i class="fa-solid fa-angles-left"></i> Back to login in</a>
+        <a href="#">
+          <i class="fa-solid fa-angles-left"></i> Back to login in
+        </a>
       </div>
     </div>
-
-    <script src="app.js"></script>
   </body>
 </html>
