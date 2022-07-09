@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Tailwind  CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Background Strength UI</title>
+  </head>
+  <body>
+    <div class="background" id="background"></div>
+    <div class="bg-white rounded p-10 text-center shadow-md">
+      <h1 class="text-lg font-bold text-purple-800">Sign up</h1>
+      <p class="text-sm text-gray-700">
+        Looks like you don't have an account. Let's create a new account for
+        <span class="font-bold text-purple-500">hi@ozantekin.dev</span>
+      </p>
+      <div class="my-4 text-left">
+        <label for="email" class="text-gray-900">Email:</label>
+        <input
+          type="text"
+          class="border block w-full p-2 mt-2 rounded"
+          id="email"
+          placeholder="Please Enter Email"
+        />
+      </div>
+      <div class="my-4 text-left">
+        <label for="password" class="text-gray-900" id="passwordLabel"
+          >Password:</label
+        >
+        <input
+          type="password"
+          class="border block w-full p-2 mt-2 rounded"
+          id="password"
+          placeholder="Please Enter Password"
+        />
+      </div>
+      <button
+        class="bg-purple-800 text-white py-2 mt-2 inline-block w-full rounded"
+        type="submit"
+      >
+        Continue
+      </button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
