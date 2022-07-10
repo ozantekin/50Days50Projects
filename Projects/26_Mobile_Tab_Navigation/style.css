@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.phone {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.45) 3px 9px 9px 3px;
+  border-radius: 20px;
+  height: 720px;
+  width: 360px;
+}
+
+.phone .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: calc(100% - 60px);
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.phone .content.about {
+  background-image: url(https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80);
+}
+
+.phone .content.blog {
+  background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+}
+
+.phone .content.map {
+  background-image: url(https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80);
+}
+
+.phone .content.contact {
+  background-image: url(https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
+}
+
+.phone .content.show {
+  opacity: 1;
+}
+
+.phone .content .text {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 4rem 1rem;
+  border-radius: 10px;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: -5px;
+  width: 100%;
+}
+
+nav ul {
+  background-color: #fff;
+  color: #333;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+
+nav li {
+  cursor: pointer;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li p {
+  font-size: 12px;
+  margin: 2px 0;
+}
+
+nav ul li:hover,
+nav ul li.active {
+  color: #ef233c;
+}
