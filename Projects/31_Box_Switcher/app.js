@@ -1,4 +1,3 @@
-const container = document.querySelector('.container')
 const userTxt = document.querySelector('.user-text')
 const userImg = document.querySelector('.user-img')
 const username = document.querySelector('.username')
@@ -51,7 +50,7 @@ const testimonials = [
   },
 ]
 
-let idx = 0
+let idx = 1
 
 function updateTestimonial() {
   //console.log(testimonials[1])
