@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #222;
+  padding-bottom: 3rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  position: fixed;
+  background-color: #5a4645;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .container {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .current {
+  color: #5eaa3f;
+  font-weight: bold;
+}
+
+.nav.move {
+  background-color: tomato;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.move .container {
+  padding: 1rem 0;
+}
+
+.nav.move .current {
+  color: #5a4645;
+}
+
+.hero {
+  background-image: url('https://img.freepik.com/free-vector/retro-devices-isometric-composition-with-personal-computer-consisting-from-system-unit-monitor-keyboard-attached-joystick_1284-61168.jpg?w=2000');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 1rem;
+  z-index: -2;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin: -1rem 1rem 1rem;
+  border-bottom: 1px solid #fff;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.content h2,
+.content h3,
+.content h4 {
+  font-size: 150%;
+  margin: 2rem 0;
+}
+
+.content p {
+  color: #555;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+}
