@@ -9,7 +9,6 @@
 body {
   font-family: 'Space Grotesk', sans-serif;
   color: #222;
-  padding-bottom: 3rem;
 }
 
 .container {
@@ -21,9 +20,9 @@ body {
   position: fixed;
   background-color: #5a4645;
   top: 0;
-  left: 0;
   right: 0;
-  transition: all 0.3s ease-in-out;
+  left: 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav .container {
@@ -31,12 +30,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav ul {
-  display: flex;
   list-style-type: none;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -45,7 +44,7 @@ body {
   color: #fff;
   text-decoration: none;
   padding: 0 15px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav .current {
@@ -64,21 +63,22 @@ body {
 
 .nav.move .current {
   color: #5a4645;
+  font-weight: bold;
 }
 
 .hero {
   background-image: url('https://img.freepik.com/free-vector/retro-devices-isometric-composition-with-personal-computer-consisting-from-system-unit-monitor-keyboard-attached-joystick_1284-61168.jpg?w=2000');
+  height: 100vh;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
   margin-bottom: 1rem;
+  position: relative;
   z-index: -2;
 }
 
@@ -108,9 +108,7 @@ body {
   padding: 1rem;
 }
 
-.content h2,
-.content h3,
-.content h4 {
+.content h2 {
   font-size: 150%;
   margin: 2rem 0;
 }

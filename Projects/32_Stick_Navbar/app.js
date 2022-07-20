@@ -3,7 +3,8 @@ const nav = document.querySelector('.nav')
 const add = 150
 
 window.addEventListener('scroll', () => {
-  // console.log(window.scrollY, nav.offsetHeight)
+  //console.log(window.scrollY, nav.offsetHeight)
+
   if (window.scrollY > nav.offsetHeight + add) {
     nav.classList.add('move')
   } else {
