@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #0f171e;
+  --assistant-color: #1a242e;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: var(--main-color);
+}
+
+header {
+  background-color: var(--assistant-color);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.search {
+  background-color: var(--main-color);
+  border: 0;
+  border-radius: 1rem;
+  font-family: inherit;
+  font-size: 1.1rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  width: 100%;
+  transition: transform 0.3s ease-in;
+}
+
+.search:focus {
+  outline: none;
+  transform: scale(1.025);
+}
+
+.search::placeholder {
+  color: #6c757d;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.movie {
+  width: 300px;
+  margin: 1rem;
+  background-color: var(--assistant-color);
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.movie img {
+  width: 100%;
+}
+
+.movie-info {
+  color: #79b8f3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+.movie-info span {
+  background-color: var(--main-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.movie-info span.green {
+  color: lightgreen;
+}
+
+.movie-info span.orange {
+  color: lightsalmon;
+}
+
+.movie-info span.red {
+  color: lightcoral;
+}
+
+.overview {
+  background-color: #566b84;
+  color: #111;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(101%);
+  overflow-y: auto;
+  transition: transform 0.5s ease-in;
+}
+
+.overview h3 {
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #79b8f3;
+  width: 50%;
+}
+
+.movie:hover .overview {
+  transform: translateY(0);
+}
+
+footer {
+  background-color: var(--assistant-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer h3 {
+  letter-spacing: 5px;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin-right: 1rem;
+  display: inline;
+}
+
+footer ul li a {
+  color: #2066a0;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+footer small {
+  margin-top: 0.5rem;
+  color: #8197a4;
+  font-size: 0.8rem;
+}
