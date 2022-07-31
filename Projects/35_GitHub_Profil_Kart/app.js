@@ -31,20 +31,8 @@ form.addEventListener('submit', (e) => {
 })
 
 function createUserCard(user) {
-  let userBio = user.bio
-  let userName = user.name
-
-  if (userBio == null) {
-    userBio = ''
-  } else {
-    userBio = user.bio
-  }
-
-  if (userName == null) {
-    userName = user.login
-  } else {
-    userName = user.name
-  }
+  const userName = user.name || user.login
+  const userBio = user.bio ? `<p>${user.bio}</p>` : ''
 
   const cardHTML = `
 
