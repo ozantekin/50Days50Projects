@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+:root {
+  --main-color: #0d1117;
+  --assistant-color: #161b22;
+  --input-font-color: #c2c3c5;
+  --border-color: #30363d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Albert Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: var(--main-color);
+}
+
+.user-form {
+  background-color: var(--assistant-color);
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.user-form input {
+  border: 1px solid var(--border-color);
+  background-color: var(--main-color);
+  padding: 3px 0;
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-family: inherit;
+  color: #fff;
+  border-radius: 0.3rem;
+}
+
+.user-form input:focus {
+  outline: none;
+}
+
+.user-form input::placeholder {
+  color: var(--input-font-color);
+}
+
+.user-form button {
+  position: absolute;
+  right: 1.5rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--main-color);
+  color: var(--input-font-color);
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+main {
+  width: 350px;
+  margin-top: 1rem;
+}
+
+.card {
+  border: 3px solid var(--border-color);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--assistant-color);
+  box-shadow: 6px 10px 6px rgba(0, 0, 0, 0.2);
+}
+
+.user-image {
+  width: 150px;
+  border-radius: 50%;
+  border: 10px solid var(--main-color);
+}
+
+.user-info {
+  padding: 1rem;
+  width: 100%;
+}
+
+.user-name {
+  line-height: 150%;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.user-name small {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: var(--input-font-color);
+}
+
+.user-info p {
+  color: #eee;
+  text-align: justify;
+}
+
+.user-info ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 0;
+  font-size: 14px;
+}
+
+.user-info ul li {
+  list-style-type: none;
+  background-color: #40464e;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+.repos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12px;
+}
+
+.repos a {
+  text-decoration: none;
+  color: #3696ff;
+  border: 1px solid var(--border-color);
+  letter-spacing: 2px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  margin: 0.25rem;
+}
+
+.repos a i {
+  color: var(--input-font-color);
+}
