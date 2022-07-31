@@ -17,6 +17,7 @@ body {
   font-family: 'Albert Sans', sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-top: 2rem;
   background-color: var(--main-color);
@@ -26,23 +27,23 @@ body {
   background-color: var(--assistant-color);
   width: 75%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   padding: 1rem;
   border-radius: 0.5rem;
+  margin-bottom: 1rem;
   position: relative;
 }
 
 .user-form input {
   border: 1px solid var(--border-color);
   background-color: var(--main-color);
-  padding: 3px 0;
-  font-size: 16px;
   padding: 0.5rem 1rem;
-  width: 100%;
-  font-family: inherit;
-  color: #fff;
+  font-size: 16px;
   border-radius: 0.3rem;
+  color: #fff;
+  font-family: inherit;
+  width: 100%;
 }
 
 .user-form input:focus {
@@ -56,12 +57,12 @@ body {
 .user-form button {
   position: absolute;
   right: 1.5rem;
-  border: 1px solid var(--border-color);
-  background-color: var(--main-color);
-  color: var(--input-font-color);
-  padding: 5px;
   font-size: 14px;
+  border: 1px solid var(--border-color);
   border-radius: 0.3rem;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 5px;
   cursor: pointer;
 }
 
@@ -74,14 +75,15 @@ main {
   border: 3px solid var(--border-color);
   padding: 1rem;
   margin: 1rem;
-  border-radius: 1rem;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
   background-color: var(--assistant-color);
   box-shadow: 6px 10px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
 }
 
 .user-image {
@@ -92,13 +94,11 @@ main {
 
 .user-info {
   padding: 1rem;
-  width: 100%;
 }
 
 .user-name {
-  line-height: 150%;
   border-bottom: 1px solid var(--border-color);
-  margin-bottom: 10px;
+  line-height: 200%;
 }
 
 h2 {
@@ -106,29 +106,26 @@ h2 {
   letter-spacing: 5px;
 }
 
-.user-name small {
-  font-size: 12px;
+small {
   font-weight: bold;
-  letter-spacing: 1.5px;
   color: var(--input-font-color);
+  letter-spacing: 1.5px;
 }
 
-.user-info p {
+p {
   color: #eee;
   text-align: justify;
 }
 
-.user-info ul {
+ul {
+  padding: 1rem 0;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  padding: 1rem 0;
-  font-size: 14px;
 }
 
-.user-info ul li {
+ul li {
   list-style-type: none;
-  background-color: #40464e;
+  background-color: #40454e;
   padding: 0.25rem 0.5rem;
   margin: 0.25rem;
   border-radius: 5px;
@@ -137,24 +134,25 @@ h2 {
 }
 
 .repos {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .repos a {
   text-decoration: none;
   color: #3696ff;
   border: 1px solid var(--border-color);
+  border-radius: 5px;
   letter-spacing: 2px;
   padding: 0.25rem 0.5rem;
-  border-radius: 5px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
   margin: 0.25rem;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.repos a i {
+.repos i {
   color: var(--input-font-color);
 }
