@@ -6,16 +6,13 @@
 <hr/>
 
 - <b> İçerik: </b>
-  - Tamamen proje bazlı bir depodur.
-  - Yeni başlayan ve orta düzey geliştiriciler için basic projeler içerecektir.
-  - HTML, CSS, DOM (Belge Nesne Modeli) ve JavaScript ile ilgili 50 mini proje içerir.
-  - Projelerin kaynak kodlarına ve <a href="https://www.youtube.com/channel/UC86HNI5ZoebM7zqAVQt6ouw"> YouTube </a> yapım video bağlantılarına aşağıdaki <b>Projeler</b> tablosundan rahat bir şekilde ulaşabilirsiniz.
+  - Bu repository tamamen proje bazlıdır ve özellikle yeni başlayanlar için temel projeler içermektedir. Toplamda 50 mini proje, HTML, CSS ve JavaScript ile ilgilidir. İlgili projelerin kaynak kodlarına ve YouTube video bağlantılarına, aşağıdaki "Projeler" tablosunu üzerinden rahatlıkla ulaşabilirsiniz.
 - <b> Düzen: </b>
-  - Projeler klasör klasör toplanmış olup <b> Projeler </b> kısmında ilgili proje üzerine gelip kaynak kodlarına ve yapım videosu için YouTube bağlantılarına tıklayarak ulaşabilirsiniz.
-- <b> <a href="https://www.youtube.com/channel/UC86HNI5ZoebM7zqAVQt6ouw"> YouTube </a> Hakkında: </b>
-  - Projelerin yapım aşamaları bazıları canlı yayında birlikte kodlayarak bazıları ise normal video yükleme işlemi şeklinde paylaşılacaktır.
-  - Vize ve final haftalarından kaynaklı tüm projeler canlı yayın olamayacaktır. Sınav dönemlerine denk gelen projeler normal video şeklinde yayınlanacaktır.
-- ###### Kafanıza takılan bir şey olursa bana istediğiniz mecradan ulaşabilirsiniz.
+  - Projeler klasör klasör toplanmış olup Projeler kısmında ilgili proje üzerine gelip kaynak kodlarına ve videolar için YouTube bağlantılarına tıklayarak ulaşabilirsiniz.
+
+<hr/>
+
+- ###### Brad Traversy ve Florin Pop'un eğitmenliğini yaptığı "50 Projects In 50 Days - HTML, CSS & JavaScript" kursunun kendi çalışma filtrelerimden geçirilmiş hali sunulmuştur.
 
 <hr/>
 
@@ -77,15 +74,9 @@
 
 <hr/>
 
-- ###### Brad Traversy ve Florin Pop eğitmenlerine ait 50 Projects In 50 Days - HTML, CSS & JavaScript kursunun kendi çalışma filtremden geçirilmiş halidir.
-
-<hr/>
-
 <h4> Aktif Kullandığım hesaplar:</h4>
 
 - YouTube: <a href="https://www.youtube.com/c/OzanTekin">Ozan Tekin</a>
 - LinkedIn: <a href="https://www.linkedin.com/in/ardilozantekin/">Ardıl Ozan Tekin</a>
 - Medium: <a href="https://medium.com/@ozantekindev">@ozantekindev</a>
 - Twitter: <a href="https://twitter.com/ozantekindev">@ozantekindev</a>
-- Instagram: <a href="https://www.instagram.com/ozantekindev/">@ozantekindev</a>
-- 1:1 Görüşme ve Tanışma için: <a href="https://superpeer.com/ozantekin">Superpeer/OzanTekin</a>
